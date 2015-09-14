@@ -88,8 +88,8 @@ Repository Layout
 -----------------
 
 pages/		- OCR'd pages from the PreliminaryUnixImplementation document
-rebuilt/	- kernel source rebuilt from the OCR'd pages, as asm files
-patches/	- patches to rebuilt/ files to get kernel to run
+build/	- kernel source build from the OCR'd pages, as asm files
+patches/	- patches to build/ files to get kernel to run
 fs/		- userland binaries and files, used to make rf0.dsk and rk0.dsk
 src/		- source code for userland: there is not much available
 tools/		- tools and scripts to build the kernel and filesystem
