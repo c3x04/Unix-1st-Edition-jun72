@@ -1,3 +1,4 @@
+export LC_ALL=C
 
 all :
 	(cd tools; make)
