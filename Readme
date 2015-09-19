@@ -60,6 +60,24 @@ Running 1st Edition UNIX
 6. To shut the system down, enter ctrl-E to stop the simulator, and q to quit.
    You do not need to sync the system before shutdown.
 
+Running 1st Edition UNIX on Docker
+----------------------------------
+
+1. Copy the Dockerfile
+
+2. Build the image
+
+   $ sudo docker build -t unix .
+
+3. Run the image
+
+   3a. Interactive:
+      $ sudo docker run -t -i unix
+
+   3b. Detached:
+      $ sudo docker run -d -p 5555:5555 unix
+      $ telnet localhost 5555
+
 Documentation
 -------------
 
